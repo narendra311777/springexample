@@ -1,5 +1,5 @@
 env.mvnHome = '/usr/share/maven3'
-node('any') {
+node {
    
    
    stage('Preparation') { // for display purposes
