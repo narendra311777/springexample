@@ -4,8 +4,7 @@ node {
    
    stage('Preparation') { // for display purposes
       
-      git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-        
+      checkout scm
       
    }
    stage('Build') {
